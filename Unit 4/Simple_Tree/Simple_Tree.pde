@@ -9,7 +9,8 @@ void setup() {
 
   // make the tree upright
   rotate(radians(-90));
-  drawTreeRight(6); // with five generations
+  drawTreeRight(7); // with five generations
+  drawTreeRight(6);
   drawTreeRight(5);
   drawTreeRight(4);
   drawTreeRight(3);
