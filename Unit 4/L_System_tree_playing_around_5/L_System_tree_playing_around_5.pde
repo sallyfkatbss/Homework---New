@@ -57,7 +57,7 @@ int yPosition = 0;
 int direction = 270;
 
 // Angle of rotation for the turtle (when a + or a - is processed)
-float angle = 25.7; 
+float angle = 20; 
 
 // Optimal number of word re-writes that should occur
 // (You can directly control how many re-writes occur with the right arrow key)
@@ -107,7 +107,7 @@ void setup() {
   // Some L-systems have more than one rule for replacements.
   // Just add another ".set" line for additional rules
   // the number you add will effect all of the variables after it 
-  rules.set("F", "F[+F]F[-F]F﻿");
+  rules.set("F", "F[+F]F[-F][F]﻿");
 
   // Before any re-writes, the existing word is set to the axiom
   existingWord = axiom;
